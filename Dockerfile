@@ -1,26 +1,21 @@
-FROM microsoft/dotnet:2.2-aspnetcore-runtime AS base
-RUN mkdir /usr/local/argenper
-
-WORKDIR /usr/local/argenper/app
-EXPOSE 80
-
-FROM microsoft/dotnet:2.2-sdk AS build
-WORKDIR /usr/local/argenper
-
-COPY ["/01 - Presentation/Presentation.csproj", "./Presentation/"]
-COPY ["/02 - Services/Services.Interfaces/Services.Interfaces.csproj", "./02 - Services/Services/Services.Interfaces/"]
-COPY ["/02 - Services/Services.Impl/Services.Impl.csproj", "./02 - Services/Services/Services.Impl/"]
-
-RUN dotnet restore "./Presentation/Presentation.csproj"
-COPY . ./
-
-RUN dotnet build "./Presentation/Presentation.csproj" -c Release -o /usr/local/argenper/app
-FROM build AS publish
-
-WORKDIR /usr/local/argenper/app
-RUN dotnet publish "./Presentation/Presentation.csproj" -c Release -o /usr/local/argenper/app
-FROM base AS final
+FROM node:10-alpine AS build-node
 WORKDIR /app
-COPY --from=publish /usr/local/argenper/app .
-RUN ls
-ENTRYPOINT ["dotnet", "Presentation.dll"]
+
+COPY ./01.Presentation/ClientApp/package.json ./
+COPY ./01.Presentation/ClientApp/package-lock.json ./
+
+RUN npm install
+COPY 01.Presentation/ClientApp ./
+
+# FROM mcr.microsoft.com/dotnet/core/sdk:2.2 AS build-env
+# WORKDIR /app
+# COPY ./ ./
+
+# RUN dotnet publish ./01.Presentation/Presentation.csproj -c Release -o out
+
+# FROM mcr.microsoft.com/dotnet/core/aspnet:2.2
+# WORKDIR /app
+# RUN mkdir -p out
+# COPY --from=build-env /app/out .
+
+# ENTRYPOINT ["dotnet", "Presentation.dll"]
