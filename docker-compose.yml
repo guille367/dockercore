@@ -1,0 +1,37 @@
+version: '3'
+
+services:
+  argenper-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: argenper-app
+    restart: always
+    # expose:
+    #   - 80:5000
+    networks:
+      - argenper-net
+    working_dir: /app
+    command: npm run start-prod
+    # tty: true
+    # volumes:
+    #   - ./back:/back/
+    #   - /etc/timezone:/etc/timezone
+    #   - /datadrive/:/storage/
+
+  # vdp-db:
+  #   image: postgres:9.5
+  #   restart: always
+  #   tty: true
+  #   container_name: vdp-db
+  #   env_file: ./db/.env
+  #   volumes:
+  #     - ../db/db_data:/var/lib/postgresql/data/pgdata
+  #   ports:
+  #     - 5432:5432
+  #   networks:
+  #     - vpd-internal-net
+
+networks:
+  argenper-net:
+    driver: bridge

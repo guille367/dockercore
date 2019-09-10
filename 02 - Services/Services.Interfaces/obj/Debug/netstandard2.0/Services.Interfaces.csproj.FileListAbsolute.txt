@@ -1,0 +1,9 @@
+/home/elwis/core-docker/02 - Services/Services.Interfaces/bin/Debug/netstandard2.0/Services.Interfaces.deps.json
+/home/elwis/core-docker/02 - Services/Services.Interfaces/bin/Debug/netstandard2.0/Services.Interfaces.dll
+/home/elwis/core-docker/02 - Services/Services.Interfaces/bin/Debug/netstandard2.0/Services.Interfaces.pdb
+/home/elwis/core-docker/02 - Services/Services.Interfaces/obj/Debug/netstandard2.0/Services.Interfaces.csprojAssemblyReference.cache
+/home/elwis/core-docker/02 - Services/Services.Interfaces/obj/Debug/netstandard2.0/Services.Interfaces.csproj.CoreCompileInputs.cache
+/home/elwis/core-docker/02 - Services/Services.Interfaces/obj/Debug/netstandard2.0/Services.Interfaces.AssemblyInfoInputs.cache
+/home/elwis/core-docker/02 - Services/Services.Interfaces/obj/Debug/netstandard2.0/Services.Interfaces.AssemblyInfo.cs
+/home/elwis/core-docker/02 - Services/Services.Interfaces/obj/Debug/netstandard2.0/Services.Interfaces.dll
+/home/elwis/core-docker/02 - Services/Services.Interfaces/obj/Debug/netstandard2.0/Services.Interfaces.pdb

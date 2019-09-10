@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/elwis/core-docker/02 - Services/Services.Interfaces/Services.Interfaces.csproj": {}
+  },
+  "projects": {
+    "/home/elwis/core-docker/02 - Services/Services.Interfaces/Services.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/elwis/core-docker/02 - Services/Services.Interfaces/Services.Interfaces.csproj",
+        "projectName": "Services.Interfaces",
+        "projectPath": "/home/elwis/core-docker/02 - Services/Services.Interfaces/Services.Interfaces.csproj",
+        "packagesPath": "/home/elwis/.nuget/packages/",
+        "outputPath": "/home/elwis/core-docker/02 - Services/Services.Interfaces/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/elwis/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
