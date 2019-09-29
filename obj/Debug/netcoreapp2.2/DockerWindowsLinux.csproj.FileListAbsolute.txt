@@ -1,0 +1,14 @@
+C:\Users\gponce\source\repos\DockerWindowsLinux\DockerWindowsLinux\obj\Debug\netcoreapp2.2\DockerWindowsLinux.csproj.CoreCompileInputs.cache
+C:\Users\gponce\source\repos\DockerWindowsLinux\DockerWindowsLinux\obj\Debug\netcoreapp2.2\DockerWindowsLinux.AssemblyInfoInputs.cache
+C:\Users\gponce\source\repos\DockerWindowsLinux\DockerWindowsLinux\obj\Debug\netcoreapp2.2\DockerWindowsLinux.AssemblyInfo.cs
+C:\Users\gponce\source\repos\DockerWindowsLinux\DockerWindowsLinux\bin\Debug\netcoreapp2.2\DockerWindowsLinux.deps.json
+C:\Users\gponce\source\repos\DockerWindowsLinux\DockerWindowsLinux\bin\Debug\netcoreapp2.2\DockerWindowsLinux.runtimeconfig.json
+C:\Users\gponce\source\repos\DockerWindowsLinux\DockerWindowsLinux\bin\Debug\netcoreapp2.2\DockerWindowsLinux.runtimeconfig.dev.json
+C:\Users\gponce\source\repos\DockerWindowsLinux\DockerWindowsLinux\bin\Debug\netcoreapp2.2\DockerWindowsLinux.dll
+C:\Users\gponce\source\repos\DockerWindowsLinux\DockerWindowsLinux\bin\Debug\netcoreapp2.2\DockerWindowsLinux.pdb
+C:\Users\gponce\source\repos\DockerWindowsLinux\DockerWindowsLinux\obj\Debug\netcoreapp2.2\DockerWindowsLinux.csprojAssemblyReference.cache
+C:\Users\gponce\source\repos\DockerWindowsLinux\DockerWindowsLinux\obj\Debug\netcoreapp2.2\DockerWindowsLinux.RazorAssemblyInfo.cache
+C:\Users\gponce\source\repos\DockerWindowsLinux\DockerWindowsLinux\obj\Debug\netcoreapp2.2\DockerWindowsLinux.RazorAssemblyInfo.cs
+C:\Users\gponce\source\repos\DockerWindowsLinux\DockerWindowsLinux\obj\Debug\netcoreapp2.2\DockerWindowsLinux.RazorTargetAssemblyInfo.cache
+C:\Users\gponce\source\repos\DockerWindowsLinux\DockerWindowsLinux\obj\Debug\netcoreapp2.2\DockerWindowsLinux.dll
+C:\Users\gponce\source\repos\DockerWindowsLinux\DockerWindowsLinux\obj\Debug\netcoreapp2.2\DockerWindowsLinux.pdb
